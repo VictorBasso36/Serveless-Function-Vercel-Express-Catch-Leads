@@ -6,8 +6,6 @@ import { lead } from '@prisma/client';
 import MessageResponse from '../interfaces/MessageResponse';
 import emojis from './emojis';
 
-const MOCK_PASSWORD = 'senha_mocada'
-
 const router = express.Router();
 
 router.get<{}, MessageResponse>('/', (req, res) => {
