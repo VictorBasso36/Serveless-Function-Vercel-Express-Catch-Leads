@@ -1,8 +1,6 @@
 import express from 'express';
 import { Prisma, PrismaClient } from '@prisma/client'
 const prisma = new PrismaClient()
-
-import { lead } from '@prisma/client';
 import MessageResponse from '../interfaces/MessageResponse';
 import emojis from './emojis';
 
