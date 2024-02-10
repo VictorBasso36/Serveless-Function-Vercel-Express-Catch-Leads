@@ -25,8 +25,6 @@ model lead{
   sugestaoClient    String?
   avaliacao String?
   comoConheceu String?
-  eventoData String?
-  hora String?
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
 
