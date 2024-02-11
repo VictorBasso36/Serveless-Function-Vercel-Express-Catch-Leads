@@ -7,7 +7,7 @@
     "postinstall": "prisma generate",
     "start": "ts-node src/index.ts",
     "dev": "nodemon src/index.ts",
-    "build": "prisma generate && tsc",
+    "build": "tsc",
     "lint": "eslint --fix src test",
     "test": "jest",
     "typecheck": "tsc --noEmit",
